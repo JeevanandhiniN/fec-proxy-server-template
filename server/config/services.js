@@ -43,13 +43,18 @@
 module.exports = {
   service1: {
     api: 'FIX_ME',
-    url: 'http://localhost:3001',
+    url: 'http://localhost:3003',
     bundle: 'app.js',
   },
+  // service1: {
+  //   api: '/api/:id',
+  //   url: 'http://52.53.255.63:3001',
+  //   bundle: 'bundle.js',
+  // },
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: '/:id',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
   },
   service3: {
     api: 'FIX_ME',
